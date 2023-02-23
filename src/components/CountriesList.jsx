@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 function CountriesList({ countries }) {
   return (
     <div class="col-5">
@@ -17,7 +16,7 @@ function CountriesList({ countries }) {
                     alt={country.name.common}
                   ></img>
                 </div>
-                <Link to={`/${country.alpha3Code}`}>{country.name.common}</Link>
+                <Link to={`/country/${country.alpha3Code}`}>{country.name.common}</Link>
               </li>
             </ul>
           );
