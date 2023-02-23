@@ -1,14 +1,13 @@
-import React from 'react'
-
-
+import React from "react";
 
 function Navbar() {
   return (
-    <div>
-    <h1>LAB - WikiCountries</h1>
-
-  </div>
-  )
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <h1>LAB - WikiCountries</h1>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
